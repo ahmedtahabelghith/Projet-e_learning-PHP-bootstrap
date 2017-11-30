@@ -1,0 +1,5 @@
+AuthUserFile http://localhost:81/TIME-AdminQCM/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Accès Restreint"
+AuthType Basic
+require valid-user
